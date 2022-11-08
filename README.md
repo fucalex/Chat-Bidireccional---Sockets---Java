@@ -19,3 +19,18 @@ en el cliente no está utilizando el número de puerto usado para realizar la pe
 siendo ejecutado. Ahora el cliente y el servidor pueden comunicarse escribiendo o leyendo en o desde sus respectivos sockets.
 
 La lógica de conexión a través de sockets permite crear aplicaciones de comunicación desde básicas hasta complejas, pues es el principio base de las aplicaciones mas comunes de hoy en día. Este tipo de métodos permite incluso el intercambio de archivos. Es muy interesante ver cómo podemos ampliar este tipo de implementaciones y su potencial.
+
+
+COMO EJECUTAR LOS ARCHIVOS
+
+SERVER: *Recuerde ejecutar primero el servidor* inicie con
+
+*java Server <port>*
+  
+ - donde <port> es el puerto que desee utilizar, donde età ubicado el servidor. Si no se establece, se toma por defecto el puerto 1234
+  
+ CLIENT
+  
+ *java Client <localhost/IP> <port>*
+  
+  - donde <localhost/IP> es la IP donde està ubicado el servidor y <port>, el puerto que se asignò previamente en el servidor. Se toma por defecto "localhost" y !1234" respectivamente
