@@ -34,3 +34,6 @@ SERVER: *Recuerde ejecutar primero el servidor* inicie con
  *java Client <localhost/IP> <port>*
   
   - donde <localhost/IP> es la IP donde està ubicado el servidor y <port>, el puerto que se asignò previamente en el servidor. Se toma por defecto "localhost" y !1234" respectivamente
+
+  Demostracion: https://www.youtube.com/watch?v=JCEBVKUzr9Q
+  
